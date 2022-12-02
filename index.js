@@ -1,3 +1,8 @@
-import _ from "lodash";
+const sumNubmers = (num1, num2) => {
+  const result = num1 + num2;
+  return result;
+};
 
-console.log(_.last(["one", "two"]));
+const num1 = 1;
+const num2 = 3;
+sumNubmers(num1, num2);
